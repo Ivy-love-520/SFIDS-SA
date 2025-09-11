@@ -1,5 +1,5 @@
 # SFIDS-SA
-自适应压制单频干扰
-test.m程序为测试程序，其中所使用的信号都为合成信号
-real_signal_process.m程序是实际信号测试，使用时只需要更改导入数据的名称即可运行。
-该所有程序都为测试过的程序，若主程序无法使用，则先运行Test_ourdata.m这个程序。
+Adaptive Suppression of Single-Frequency Interference
+The test.m program is a test program, and all signals used in it are synthetic signals.
+The real_signal_process.m program is for actual signal testing. To use it, simply change the name of the imported data to run it.
+All programs have been tested. If the main program cannot be used, run the Test_ourdata.m program first.
