@@ -1,8 +1,9 @@
 clear;clc;close all;
 addpath(genpath(fileparts(mfilename('fullpath'))));
 fs = 5120; 
-data = load('E01_240730_091352386.txt');
- transposedData = data';
+%data = load('E01_240730_091352386.txt');
+data = load('E01_240731_104328334.txt');
+transposedData = data';
 dlmwrite('data.txt', transposedData);
  signal = load('data.txt');
 s2 = signal(3,:);
