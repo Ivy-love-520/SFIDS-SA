@@ -287,24 +287,3 @@ plot(am_s1(1:600)); hold on;
 plot(am_y_new(1:600),'r');
 figure(103);
 plot(t,s_clean);
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 计算信噪比
-signal_power = mean(s_clean.^2);    % 干净信号功率
-% 计算去噪后与干净信号的误差（实际残余噪声）的功率
-noise_y_KSVD = (s_clean)' - y_KSVD; % 计算噪声
-noise_power_y_KSVD = mean(noise_s2 .^2);
-snr_y_KSVD = 10 * log10(signal_power / noise_power_y_KSVD);
-% 输出结果
-fprintf('SNR after denoising (y_KSVD): %.2f dB\n', snr_y_KSVD);
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 计算信号的结构相似性（SSIM）
-[ssim_value, ssim_map] = ssim((y_KSVD)', s_clean);
-fprintf('SSIM between y_KSVD and s_clean: %.4f\n', ssim_value);    % 输出结果
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 计算归一化互相关 (NCC)
-y_KSVD = (y_KSVD)';
-numerator = sum((s_clean - mean(s_clean)) .* (y_KSVD - mean(y_KSVD))); % 交叉协方差
-denominator = sqrt(sum((s_clean - mean(s_clean)).^2) * sum((y_KSVD - mean(y_KSVD)).^2)); % 各自方差乘积的平方根
-ncc_value = numerator / denominator; % 归一化互相关
-fprintf('NCC after KSVD denoising: %.4f\n', ncc_value);
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
