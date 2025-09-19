@@ -3,7 +3,7 @@ Adaptive Suppression of Single-Frequency Interference
 The program runs in MATLAB, and the author developed it using MATLAB version 2022b. All programs have been debugged. If any errors occur during execution, simply switch to a different MATLAB version.
 First, the test.m file serves as the test program. After running it, the program should complete within 30 seconds. If the following figure is obtained, the program is functioning correctly. This test program requires no parameter modifications.
 
-Markdown(https://github.com/Ivy-love-520/SFIDS-SA/blob/main/picture/%E5%9B%BE%E4%B8%80.png)
+![图一](https://raw.githubusercontent.com/ivy-love-520/SFIDS-SA/main/picture/%E5%9B%BE%E4%B8%80.png)
 
 Next, run the real_signal_process.m file, which is used for processing real microseismic signals. After clicking run, the program should also finish within 30 seconds. Without making any modifications to the code, you can directly obtain the processing result of the first real microseismic signal. The output figure is shown as follows:
 
