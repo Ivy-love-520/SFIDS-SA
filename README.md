@@ -7,7 +7,7 @@ Markdown(https://github.com/Ivy-love-520/SFIDS-SA/blob/main/picture/%E5%9B%BE%E4
 
 Next, run the real_signal_process.m file, which is used for processing real microseismic signals. After clicking run, the program should also finish within 30 seconds. Without making any modifications to the code, you can directly obtain the processing result of the first real microseismic signal. The output figure is shown as follows:
 
-![image](https://github.com/Ivy-love-520/SFIDS-SA/blob/main/picture/%E5%9B%BE%E4%BA%8C.png)
+![Image text](https://github.com/Ivy-love-520/SFIDS-SA/blob/main/picture/%E5%9B%BE%E4%BA%8C.png)
 
 The second signal corresponds to the third column in the text file E01_240731_104328334. By replacing the imported data, you can obtain the denoising results of the two real microseismic signals.
 
