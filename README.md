@@ -3,7 +3,7 @@ Adaptive Suppression of Single-Frequency Interference
 The program runs in MATLAB, and the author developed it using MATLAB version 2022b. All programs have been debugged. If any errors occur during execution, simply switch to a different MATLAB version.
 First, the test.m file serves as the test program. After running it, the program should complete within 30 seconds. If the following figure is obtained, the program is functioning correctly. This test program requires no parameter modifications.
 
-![picture1](picture/picture1.png)
+![picture1](./picture/picture1.png)
 <img src="./picture/picture1.png">
 
 
