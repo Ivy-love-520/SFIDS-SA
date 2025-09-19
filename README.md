@@ -22,7 +22,7 @@ The loading method of Signal 1 is:data = load('E01_240731_104328334.txt');
 
 The loading method of Signal 2 is:data = load('E01_240730_091352386.txt');
 
-The second signal corresponds to the third column in the text file E01_240731_104328334. By replacing the imported data, you can obtain the denoising results of the two real microseismic signals.
+The second signal corresponds to the third column in the text file E01_240731_091352386. By replacing the imported data, you can obtain the denoising results of the two real microseismic signals.
 
 ![picture3](./picture/picture3.png)
 
