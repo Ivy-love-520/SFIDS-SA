@@ -5,6 +5,7 @@ First, the test.m file serves as the test program. After running it, the program
 
 ![picture1](picture/picture1.png)
 
+
 Next, run the real_signal_process.m file, which is used for processing real microseismic signals. After clicking run, the program should also finish within 30 seconds. Without making any modifications to the code, you can directly obtain the processing result of the first real microseismic signal. The output figure is shown as follows:
 
 ![image](https://raw.githubusercontent.com/Ivy-love-520/SFIDS-SA/main/%E5%9B%BE%E4%B8%80.png)
