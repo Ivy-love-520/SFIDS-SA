@@ -7,25 +7,25 @@ Firstly, we employ the particle swarm optimization (PSO) algorithm to determine 
 
 # Key features:
 
-* 1.Adaptive suppression of single-frequency interference.
+* Adaptive suppression of single-frequency interference.
 
-* 2.Perform layered processing on noise.
+* Perform layered processing on noise.
 
 # Requirements
 
-1.MATLAB R2022B OR later.
+* MATLAB R2022B OR later.
 
-2.Signal processing tool.
+* Signal processing tool.
 
 # Input Files
 
-1.s_clean.txt.
+* s_clean.txt.
 
-2.s_noise.txt.
+* s_noise.txt.
 
-3.E01_240730_091352386.txt.
+* E01_240730_091352386.txt.
 
-4.E01_240731_104328334.txt.
+* E01_240731_104328334.txt.
 
 # Usage
 
