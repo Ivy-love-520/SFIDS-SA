@@ -42,7 +42,7 @@ If the following figure is obtained, the program is functioning correctly. This 
 
 ![picture1](./picture/picture1.png)
 
-# 2.Run the code(real signal 1)
+# 2.Run the code(Real signal 1)
 
 Next, run the real_signal_process.m file, which is used for processing real microseismic signals. 
 
@@ -55,10 +55,10 @@ The loading method of Signal 1 is:data = load('E01_240731_104328334.txt');
 
 The loading method of Signal 2 is:data = load('E01_240730_091352386.txt');
 
-# 3.Run the code(real signal 2)
+# 3.Run the code(Real signal 2)
 
 The second signal corresponds to the third column in the file E01_240731_091352386.txt. By replacing the imported data, you can obtain the denoising results of the two real microseismic signals.
 
 ![picture3](./picture/picture3.png)
 
-(Note: If an error occurs when running the test.m file, run the Test_ourdata.m file first.)
+# (Note: If an error occurs when running the test.m file, run the Test_ourdata.m file first.)
