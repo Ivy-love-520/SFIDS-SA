@@ -18,7 +18,8 @@ Requirements
 2.Signal processing tool.
 
 Input Files
-1.s_clear.txt.
+
+1.s_clean.txt.
 
 2.s_noise.txt.
 
